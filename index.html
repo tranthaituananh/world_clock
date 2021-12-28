@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>World Clock</title>
+</head>
+<body>
+    <div class="container container-block">
+        <div class="row time mx-auto" id="header">
+            <h3 id="head">World Clock</h1>
+                <h1 id="fullDate">Monday, January 00, 0000</h1>
+            <h1 id="city"></h1>
+        </div>
+        <div class="row time"  id="container">
+           
+            <h1 class="st1" id="hr">00</h1>
+            <h1 class="st2">:</h1>
+            <h1 class="st1" id="min">00</h1>
+            <h1 class="st2">:</h1>
+            <h1 class="st1" id="sec">00</h1>
+    
+            <select class="form-control dropdown" onchange="setUTC()" id="selectUTC">
+                <option value="beijing" class="dropdown">Beijing</option>
+                <option value="cairo" class="dropdown">Cairo</option>
+                <option value="chicago" class="dropdown">Chicago</option>
+                <option value="dubai" class="dropdown">Dubai</option>
+                <option selected value="haNoi" class="dropdown">Ha Noi</option>
+                <option value="hongKong" class="dropdown">Hong Kong</option>
+                <option value="istanbul" class="dropdown">Istanbul</option>
+                <option value="lagos" class="dropdown">Lagos</option>
+                <option value="london" class="dropdown">London</option>
+                <option value="losAngeles" class="dropdown">Los Angeles</option>
+                <option value="moscow" class="dropdown">Moscow</option>
+                <option value="mumbai" class="dropdown">Mumbai</option>
+                <option value="newYork" class="dropdown">New York</option>                
+                <option value="paris" class="dropdown">Paris</option>
+                <option value="saoPaolo" class="dropdown">Sao Paolo</option>
+                <option value="seoul" class="dropdown">Seoul</option>
+                <option value="shanghai" class="dropdown">Shanghai</option>
+                <option value="singapore" class="dropdown">Singapore</option>
+                <option value="sydney" class="dropdown">Sydney</option>
+                <option value="tokyo" class="dropdown">Tokyo</option>
+                <option value="toronto" class="dropdown">Toronto</option>
+                <option value="zurich" class="dropdown">Zurich</option>
+            </select>
+        </div>
+        <div class="footer" id="footer">
+            <button onclick="darkMode()">Light/Dark mode</button>
+        </div>
+
+        <p id="info">
+            Built by <a href="https://github.com/tranthaituananh">Tran Thai Tuan Anh</a> in 2021.
+        </p>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
