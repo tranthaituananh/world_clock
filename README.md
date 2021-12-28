@@ -1,4 +1,4 @@
-# world-clock
+# World Clock
 This is a simple world clock web application using JavaScript.
 
 ## Features 
