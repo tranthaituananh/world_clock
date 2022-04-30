@@ -6,6 +6,3 @@ This is a simple world clock web application using JavaScript.
   * Minimalist
   * Optional dark theme 
   * Responsive
-  
-## Demo
-[Try it](https://tranthaituananh.github.io/world-clock/)
