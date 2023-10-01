@@ -22,7 +22,7 @@ var getTime = (function () {
         'newYork': [-5, 0],
         'paris': [1, 0],
         'saoPaolo': [-3, 0],
-        'seoul': [8, 0],
+        'seoul': [9, 0],
         'shanghai': [8, 0],
         'singapore': [8, 0],
         'sydney': [11, 0],
